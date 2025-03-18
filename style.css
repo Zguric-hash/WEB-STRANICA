@@ -1,4 +1,4 @@
-/* Generalni stilovi */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ a {
     margin: 0 auto;
 }
 
-/* Header */
+
 header {
     background-color: #111;
     color: #fff;
@@ -51,14 +51,14 @@ header nav ul li a {
     font-weight: 500;
     font-size: 18px;
     color: #fff;
-    transition: color 0.3s;
+    transition: color 0.3s
 }
 
 header nav ul li a:hover {
     color: #ffb400;
 }
 
-/* Hero Section */
+
 #hero {
     background: url('https://media-hosting.imagekit.io//c25b6f4a88a049ae/slika.jpg?Expires=1836947559&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=LU47-r4IW~Y7g9sG~wDxSzZxBs1bJO3n32uDP9~ClZY0H7HFI1d-npyDGTEAsgkNhaXPT8JkEHyU0gzSH2MJwKNqLUCMqW3YPT2YTGDLhCSarMauyY85LY1JHvIwvCT1WhXm3zjHK3ZPjOnbGOJv1kKB4x~VCHhsJ-h1I7LShyHel2rcw00qCekw0~v5OIMAsKFUqXcNUHR~EoODWCrGCuxvA~FBy4PWR7FvJ8vK4I6PXLIbRobg~xVA0UUOdEdb0RvdnGEnpZE3QBf9~WZ9hqGMAoI6zyBUAXI1cp9pYCobfmNE8~SchF0keBTTBsiyd~6tsDb9nM9GXWZohVLi9Q__') no-repeat center center/cover;
     padding: 100px 0;
@@ -97,7 +97,7 @@ header nav ul li a:hover {
     background-color: #e6a100;
 }
 
-/* Sections */
+
 .section {
     padding: 60px 0;
     background-color: #fff;
@@ -139,8 +139,7 @@ h2 {
     transform: translateY(-10px);
 }
 
-/* Kontakt Forma */
-/* Stilovi za kontakt formu */
+
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -183,10 +182,10 @@ form button:hover {
 }
 
 
-/* Footer */
 footer {
     background-color: #111;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
+
