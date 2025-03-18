@@ -1,0 +1,192 @@
+/* Generalni stilovi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffb400;
+}
+
+/* Hero Section */
+#hero {
+    background: url('https://media-hosting.imagekit.io//c25b6f4a88a049ae/slika.jpg?Expires=1836947559&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=LU47-r4IW~Y7g9sG~wDxSzZxBs1bJO3n32uDP9~ClZY0H7HFI1d-npyDGTEAsgkNhaXPT8JkEHyU0gzSH2MJwKNqLUCMqW3YPT2YTGDLhCSarMauyY85LY1JHvIwvCT1WhXm3zjHK3ZPjOnbGOJv1kKB4x~VCHhsJ-h1I7LShyHel2rcw00qCekw0~v5OIMAsKFUqXcNUHR~EoODWCrGCuxvA~FBy4PWR7FvJ8vK4I6PXLIbRobg~xVA0UUOdEdb0RvdnGEnpZE3QBf9~WZ9hqGMAoI6zyBUAXI1cp9pYCobfmNE8~SchF0keBTTBsiyd~6tsDb9nM9GXWZohVLi9Q__') no-repeat center center/cover;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+#hero h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#hero p {
+    font-size: 20px;
+    margin: 20px 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-btn {
+    background-color: #ffb400;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #e6a100;
+}
+
+/* Sections */
+.section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#services .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #777;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Kontakt Forma */
+/* Stilovi za kontakt formu */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+form input[type="tel"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form button {
+    background-color: #ffb400;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #e6a100;
+}
+
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
